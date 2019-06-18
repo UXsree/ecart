@@ -7,6 +7,7 @@ static getSalesLink(){
     static goToCustomerDetailsPage(){
         return this.getLocators(CUSTOMFIELDS_DRAWER.left.customerDetails)
     }
+//something to test
     static customerDetailsTabSelector(){
         return this.getLocators(CUSTOMFIELDS_DRAWER.left.customerDetailsTab)
     }
