@@ -7,9 +7,13 @@ static getSalesLink(){
     static goToCustomerDetailsPage(){
         return this.getLocators(CUSTOMFIELDS_DRAWER.left.customerDetails)
     }
+
     static getFileName() {
         return this.fileName;
     }
+
+//something to test
+
     static customerDetailsTabSelector(){
         return this.getLocators(CUSTOMFIELDS_DRAWER.left.customerDetailsTab)
     }
